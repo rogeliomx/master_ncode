@@ -1,0 +1,58 @@
+.box{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 6px yellow solid;
+    height: 770px;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-image: linear-gradient( rgb(240, 228, 240),rgb(193, 226, 231));
+    font-family: 'Kufam', cursive;
+    
+}
+
+label{
+
+    padding-top:25px;
+    font-family: 'Kufam', cursive;
+    color: black;
+}
+input{
+    background-color: rgb(235, 235, 235);
+    border-style: hidden;
+    font-family: 'Kufam', cursive;
+    font-size: 13px;
+    height: 40px;
+}
+.enviar{
+    height: 40px;
+    background-image: linear-gradient(to bottom right, rgb(224, 200, 64), pink);
+    font-family: 'Kufam', cursive;
+    text-size-adjust: 20px;
+    text-shadow: turquoise;
+}
+
+p{
+    font-size: x-small;
+    color: gray;
+}
+
+.recuerdame{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+a{
+    color:rgb(170, 68, 173);
+}
+
+h1{
+    background-image: linear-gradient(to bottom right, turquoise, rgba(199, 250, 58, 0.815));
+    padding: 6px;
+    border-radius: 3px;
+    color: white;
+    
+}

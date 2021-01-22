@@ -1,0 +1,75 @@
+
+
+.upper{
+    display: inline-block;
+    width: 250px;
+    border: #ed07f5 2px solid;
+    /*      top rigth  buttom   left               */
+   margin: 0px 0px  0px  0px ;
+   padding: 10px 0px 5px 1009px;
+    
+}
+.BoxNav{
+    text-size-adjust: 30px;
+    text-align: center;
+    display: block;
+    width: 130px;
+    border: blue 3px solid;
+    align-items: center;
+    padding: 3px 0px 3px 100px;
+}
+
+body, a, p{
+    font-family: arial,sans-serif;
+    font-style: thin;
+    color: gray;
+    font-size: 12px;
+}
+.general{
+    border: #ed07f5 solid 3px;
+    padding: 170px 300px 10px 300px;
+}
+
+.logo {
+    padding: 0px 0px 0px 180px;
+
+}
+
+.button {
+
+    background-color: rgba(218, 218, 218, 0.863);
+}
+
+
+.searcher{
+    font-size:27px;
+    display: inline-block;
+    border: #a3a3a3 2px solid;
+    border-radius: 18px;
+    height: 35px;
+    width: 500px;
+    padding-left: 10px;
+    margin: 20px 30px 10px 70px;
+    
+
+}
+.referencias{
+    display: inline-block;
+    border: #ed07f5 2px double;
+    margin: 30px -100px 90px 180px;
+    padding: 10px;
+    
+        
+}
+
+footer{
+    border: tomato 4px solid;   
+    padding: 0px;
+}
+.lista {
+    display: inline;
+    /* You can also add some margins here to make it look prettier */
+    zoom:1;
+    *display:inline;
+    /* this fix is needed for IE7- */
+}

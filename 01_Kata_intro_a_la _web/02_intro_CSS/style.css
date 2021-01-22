@@ -1,0 +1,69 @@
+/* selector */
+
+body {
+
+    background-image: linear-gradient(#151809, #1E2601)
+}
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300;1,400&display=swap');
+
+h1  {
+    /* propiedad : valor */
+       color: white;
+       text-align: left;
+       font-family: 'Zilla Slab';
+       font-size: 109px; 
+       background-position-x: left;
+       letter-spacing: 6px ;
+       opacity: 90%;
+       padding-inline: 20px;
+       
+       
+       
+   
+   }
+
+
+   p{
+   font-family: 'Zilla Slab'; 
+ text-align: center;
+       color:#CCD0D9;
+       text-justify: distribute;
+       text-decoration-style: dotted;
+      
+       
+       text-justify: inter-word;
+       background-size: 3vmax;
+       text-decoration-skip-ink: initial ;
+       motion-path: circle(200px);
+       border-style:hidden;
+
+   }
+   
+   img {
+       motion: inset(auto);
+       lighting-color: lightblue;
+       height: 200px;
+       weight: 200px;
+       align: center;
+       
+       border-style: dotted;
+       align-items: center;
+       vertical-align: 5px;
+       
+       
+   }
+   
+   a{
+       color:#CCD0D9;
+       border-style: double, outset;
+       align-self: center;
+       font-family: 'Zilla Slab' ;
+       padding-inline: 30px;
+   }
+   nav{
+       padding-left: 15rem;
+       font-size: 25px;
+       letter-spacing: 5px;
+       initial-letter: 20px;
+       border: linear-gradient(yellow, pink)
+   }

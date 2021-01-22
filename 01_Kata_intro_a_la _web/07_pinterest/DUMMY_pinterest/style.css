@@ -1,0 +1,188 @@
+@font-face{font-family:'Calluna';
+    src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+   }
+   body {
+   
+     font-family: Calluna, Arial, sans-serif;
+     min-height: 1000px;
+     margin-left: 10px;
+     margin-right: 10px;
+    align-items: flex-end;
+   }
+
+   .logo {
+    width: 24px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 50px 0;
+    position: fixed;
+}
+nav button:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+.botones_inicio {
+    background-color: white;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.b1,
+.b1:hover {
+    background-color: black;
+    color: white;
+}
+.botones_inicio:focus {
+    background-color: black;
+    color: white;
+}
+input {
+    width: 600px;
+    height: 48px;
+    outline: none;
+    font-size: 17px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: none;
+}
+.fa-search {
+    padding-left: 15px;
+
+}
+.buscador {
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    width: 800px;
+}
+.buscador:hover {
+    background-color: #eaeaea;
+}
+button img {
+    width: 12px;
+    border-radius: 6px;
+    height: 12px;
+}
+.boton_nav {
+    border-radius: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+button:last-child {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*columns*/
+
+   #columns {
+       column-width: 200px;
+        width: 100%;
+       max-width: 1100px;
+       margin: 120px auto;
+   
+   }
+   
+   div#columns figure {
+       background: #fefefe;
+       margin: 0 0px 0px;
+       padding-bottom: 0px;
+       transition: opacity .4s ease-in-out;
+     display: inline-block;
+   }
+   
+   div#columns figure img {
+       width: 100%; height: auto;
+       border-bottom: 1px solid #ccc;
+       margin-bottom: 5px;
+       border-radius: 20px;
+       
+   }
+   
+   div#columns figure figcaption {
+     font-size: .9rem;
+       color: #444;
+     line-height: 1.5;
+   }
+   
+   
+   div#columns:hover figure:not(:hover) {
+       opacity: 0.7;
+       
+   }
+/*RESPONSIVE*/
+   @media screen and (max-width: 750px) { 
+     #columns { column-gap: 0px; }
+     #columns figure { width: 100%; }
+   }
+
+   @media screen and (max-width: 375px) { 
+    #columns { column-gap: 0px; }
+    #columns figure { width: 49%; }
+  }
+
+  
+/*iconos */
+.fa{
+    color: rgb(199, 14, 14);
+    
+    
+}
+/* HOVER DE LOS ICONOS EN CADA IMAGEN */
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    position:absolute;
+    height: 350px;
+    width: 200px;
+    border: rgb(199, 14, 14) solid 3px;
+    z-index: 1;
+
+}
+
+.boxSuperior{
+    border: blueviolet 2px solid;
+    color: #4d4d4d;
+    height:50%;
+    width:100%;
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.guardarButton{
+    background-color: rgb(209, 209, 209);
+    border: rgb(255, 0, 212) 2px solid;
+    width: 40%;
+    height: 25%;
+}
+
+.boxInferior{
+    border: rgb(49, 226, 43) 2px solid;
+    height:50%;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+

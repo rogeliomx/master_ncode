@@ -1,0 +1,467 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    width: 24px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 50px 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: -20px;
+    background-color: white;
+}
+
+.nav_principal > * {
+    margin: 0 5px;
+}
+
+.nav_principal button i {
+    color: gray;
+}
+
+.nav_principal div:first-child {
+    margin-left: 100px;
+}
+
+.nav_principal button:last-child {
+    margin-right: 100px;
+}
+
+.nav_movil {
+    display: none;
+}
+
+nav button:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.botones_inicio {
+    background-color: white;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.b1,
+.b1:hover {
+    background-color: black;
+    color: white;
+}
+
+.botones_inicio:focus {
+    background-color: black;
+    color: white;
+}
+
+.boton_nav i {
+    font-size: 20px;
+}
+
+.boton_nav:last-child i {
+    font-size: 15px;
+}
+
+input {
+    width: 849px;
+    height: 48px;
+    outline: none;
+    font-size: 17px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: none;
+}
+
+.fa-search {
+    padding-left: 15px;
+}
+
+.buscador {
+    background-color: #f0f0f0;
+    border-radius: 25px;
+}
+
+.buscador:hover {
+    background-color: #eaeaea;
+}
+
+
+button img {
+    width: 15px;
+    border-radius: 6px;
+    height: 15px;
+}
+
+.boton_nav {
+    border-radius: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+button:last-child {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bell {
+    display: none;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    box-shadow: 0 0 10px rgb(209, 208, 208);
+}
+
+.button_bell:hover + .bell{
+    display: none;
+}
+
+.bell p {
+    font-weight: bold;
+}
+
+.sugerencias_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 450px;
+    align-items: center;
+}
+
+.sugerencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    padding: 8px;
+    border-radius: 25px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.sugerencias:hover {
+    background-color: #eaeaea;
+}
+
+.sugerencias label {
+    margin: 5px 10px;
+}
+
+.sugerencias_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sugerencias_img img {
+    width: 100px;
+    height: 150px;
+}
+
+/*columns*/
+#columns {
+    column-width: 200px;
+     width: 100%;
+    max-width: 1100px;
+    margin: 120px auto;
+}
+
+#columns figure:hover {
+    cursor: pointer;
+}
+
+div#columns figure {
+    background: #FEFEFE;
+    margin: 0 0px 0px;
+    padding-bottom: 0px;
+    transition: opacity .4s ease-in-out;
+    display: inline-block;
+}
+
+div#columns figure img {
+    width: 100%; height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+div#columns figure figcaption {
+  font-size: .9rem;
+    color: #444;
+  line-height: 1.5;
+}
+/* 
+div#columns:hover figure:not(:hover) {
+    opacity: 0.4;
+}
+​ */
+​
+/* Contenedor de las 2 secciones */
+​
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+​
+​
+/*hijo1: Sección izquierda*/
+​
+div img {
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+​
+​
+/*hijo2: Sección derecha*/
+​
+.hijo2 {
+    display: flex;
+    flex-direction: column;
+}
+​
+.info_right_top {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+​
+.boton_preview {
+    border-radius: 100%;
+    padding: 10px;
+    border: none;
+    color: #6d6d6d;
+    background-color: white;
+    outline: none;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+​
+#muro {
+    margin-left: 150px;
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: gainsboro;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70%;
+}
+​
+.submit {
+    margin-top: 25px;
+    width: 70px;
+    height: 40px;
+    background: #b83312;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 70%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+​
+.iconos_botones {
+    height: 80px;
+}
+​
+.info_right_bottom {
+    height: 70px;
+    margin-top: 25px;
+    padding-left: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 130%;
+}
+​
+.profile_details {
+    margin-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+​
+img.owner_profile {
+    width: 60px;
+    border-radius: 30px;
+}
+​
+h6 {
+    padding-left: 10px;
+}
+​
+.follow_button {
+    margin-top: 13px;
+    margin-left: 200px;
+    width: 70px;
+    height: 40px;
+    background: gainsboro;
+    border-color: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: 70%;
+    border-radius: 30px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 750px) {
+
+    input {
+        width: 249px;
+        height: 48px;
+    }
+
+    .botones_inicio {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .boton_nav i {
+        font-size: 18px;
+    }
+
+    .boton_nav:last-child i {
+        font-size: 15px;
+    }
+
+    .nav_principal div:first-child {
+        margin-left: 20px;
+    }
+    
+    .nav_principal button:last-child {
+        margin-right: 20px;
+    }
+
+    #columns { 
+        column-gap: 5px;
+    }
+
+    #columns figure { 
+        width: 100%; 
+    }
+   
+  }
+
+  @media screen and (max-width: 375px) {
+      .nav_principal {
+          display: none;
+      }
+
+      .contenedor1_nav {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin-left: 20px;
+      }
+
+      .logo {
+          width: 30px;
+      }
+
+      .contenedor2_nav {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+      }
+
+      .contenedor2_nav i {
+          font-size: 20px;
+          color: gray;
+          margin: 0 3px;
+      }
+
+      .boton_nav {
+        padding: 0;
+      }
+
+      .boton_nav img {
+          width: 20px;
+          height: 20px;
+          border-radius: 50px;
+
+      }
+
+      .nav_movil {
+          width: 100%;
+          background-color: white;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: fixed;
+          top: 0px;
+      }
+
+      .b1 {
+          padding: 20px 40px 20px 50px;
+          border-radius: 25px;
+          border: none;
+          outline: none;
+          font-size: 18px;
+          margin: 0 5px;
+          background-color: white;
+          color: black;
+          font-weight: bold;
+      }
+
+      .fa-chevron-down {
+          margin: 0 5px;
+      }
+
+      #columns {
+        column-gap: 0px;
+    }
+
+    #columns figure {
+        width: 49%; 
+    }
+
+ }
+
+
+

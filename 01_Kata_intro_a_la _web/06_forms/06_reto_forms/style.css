@@ -1,0 +1,16 @@
+.form{
+    
+    border: solid 6px black;
+    width: 500px;
+    height: 700px;
+}
+
+.ingredientes{
+    border-top: solid 1px black;
+    width: 500px;
+}
+
+.date{
+    border-top: solid 1px black;
+    width: 500px;
+}

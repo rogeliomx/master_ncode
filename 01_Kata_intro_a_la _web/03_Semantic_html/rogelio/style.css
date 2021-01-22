@@ -1,0 +1,31 @@
+nav {
+    background: green;
+    color: blue;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+
+  #grad {
+    background-image: linear-gradient(red, yellow, blue);
+  }
+  ul {
+    background: white;
+  }
+  li {
+      background: gray;
+  }
+  section {
+    background: pink;
+  }
+  div {
+    background: blue;
+  }
+  p {
+    text-align: center;
+    font-family: 'Zilla Slab', serif;  }
+  footer {
+    background: black;
+  }
+  span {
+    color: white;
+  }
+  

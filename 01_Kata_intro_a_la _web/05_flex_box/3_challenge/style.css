@@ -1,0 +1,104 @@
+.abuelo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;  
+    height: 600px;
+    width: 1200px;
+}
+
+.madre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+display: flex;
+height: 600px;
+width: 500px;
+
+
+}
+
+.padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+height: 600px;
+width: 850px;
+background-color: blueviolet;
+}
+
+.hijo{
+height: 300px;
+width: 310px;
+background-color:white ;
+border-right: blue 40px solid;
+border-bottom: blue 40px solid;
+}
+
+.hija{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: bottom;
+    align-items: baseline;
+height: 300px;
+width: 310px;
+background-color:white ;
+border-right: blue 40px solid;
+border-top:blue 40px solid;
+}
+
+.hijo2{
+display: flex;
+flex-direction: row-reverse;
+align-items: baseline;
+height: 300px;
+width: 850px;
+background-color: white;
+border-left: blue 40px solid;
+border-bottom:blue 40px solid;
+}
+
+.hija2{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+height: 300px;
+width: 850px;
+background-color:white;
+border-left: blue 40px solid;
+border-top:blue 40px solid;
+}
+
+
+.nieto{
+    height: 220px;
+    width: 270px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.nieta{
+    
+    height: 220px;
+    width: 270px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.nieto2{
+    
+    height: 220px;
+    width: 800px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.nieta2{
+    
+    height: 220px;
+    width: 800px;
+    background-color: red;
+    border-radius: 20px;
+}
